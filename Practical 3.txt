@@ -1,43 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
     <title>HTML5 Example</title>
 </head>
 <body>
 
-    <!-- Marquee Tag -->
-    <marquee behavior="scroll" direction="left" scrollamount="5">
-        Welcome to My HTML5 Web Page!
+    <!-- Marquee -->
+    <marquee behavior="scroll" direction="left" scrollamount="6">
+        Welcome to My HTML5 Webpage!
     </marquee>
 
-    <h1>My Favorite Fruits (Unordered List)</h1>
-    <!-- Unordered List -->
+    <h2>Unordered List (My Hobbies)</h2>
     <ul>
-        <li>Apple</li>
-        <li>Banana</li>
-        <li>Mango</li>
-        <li>Orange</li>
+        <li>Reading</li>
+        <li>Gaming</li>
+        <li>Coding</li>
     </ul>
 
-    <h2>Steps to Make Tea (Ordered List)</h2>
-    <!-- Ordered List -->
+    <h2>Ordered List (Daily Routine)</h2>
     <ol>
-        <li>Boil water</li>
-        <li>Add tea leaves</li>
-        <li>Add sugar and milk</li>
-        <li>Strain and serve</li>
+        <li>Wake Up</li>
+        <li>Study</li>
+        <li>Practice Coding</li>
     </ol>
 
-    <h2>Visit My Favorite Website</h2>
-    <!-- Anchor Tag -->
-    <a href="https://www.example.com" target="_blank">
-        Click Here to Visit Example Website
-    </a>
+    <h2>Image Example</h2>
+    <!-- Online image link (works in online compilers) -->
+  Here is a simple `<img>` tag that works in any online HTML compiler (uses a direct online image link):
 
-    <h2>Sample Image</h2>
-    <!-- Image Tag -->
-    <img src="https://via.placeholder.com/200" alt="Sample Image" width="200" height="200">
+```html
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" 
+     alt="React Logo" 
+     width="200">
+```
+
+    <h2>Visit Website</h2>
+    <p>
+        Click here to visit 
+        <a href="https://www.w3schools.com" target="_blank">
+            W3Schools
+        </a>
+    </p>
 
 </body>
 </html>
+
