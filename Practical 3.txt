@@ -26,7 +26,7 @@
 
     <h2>Image Example</h2>
     <!-- Online image link (works in online compilers) -->
-  Here is a simple `<img>` tag that works in any online HTML compiler (uses a direct online image link):
+  Here is a simple `<img>` tag :
 
 ```html
 <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" 
@@ -44,4 +44,5 @@
 
 </body>
 </html>
+
 
