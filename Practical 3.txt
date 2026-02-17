@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Example</title>
+</head>
+<body>
+
+    <!-- Marquee Tag -->
+    <marquee behavior="scroll" direction="left" scrollamount="5">
+        Welcome to My HTML5 Web Page!
+    </marquee>
+
+    <h1>My Favorite Fruits (Unordered List)</h1>
+    <!-- Unordered List -->
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Mango</li>
+        <li>Orange</li>
+    </ul>
+
+    <h2>Steps to Make Tea (Ordered List)</h2>
+    <!-- Ordered List -->
+    <ol>
+        <li>Boil water</li>
+        <li>Add tea leaves</li>
+        <li>Add sugar and milk</li>
+        <li>Strain and serve</li>
+    </ol>
+
+    <h2>Visit My Favorite Website</h2>
+    <!-- Anchor Tag -->
+    <a href="https://www.example.com" target="_blank">
+        Click Here to Visit Example Website
+    </a>
+
+    <h2>Sample Image</h2>
+    <!-- Image Tag -->
+    <img src="https://via.placeholder.com/200" alt="Sample Image" width="200" height="200">
+
+</body>
+</html>
