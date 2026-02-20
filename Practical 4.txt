@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First HTML5 Page</title>
+</head>
+<body>
+
+<h1>Welcome to My Web Page</h1>
+<p>This is a simple HTML5 example for beginners.</p>
+
+<h2>My Image</h2>
+ <img src="https://picsum.photos/300" alt="Sample Image">
+<h2>Student Details</h2>
+<table border="1" cellpadding="10" cellspacing="5">
+    <caption>Student Information</caption>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Branch</th>
+            <th>Year</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Gunjan</td>
+            <td>Engineering</td>
+            <td>First</td>
+        </tr>
+        <tr>
+            <td>Rahul</td>
+            <td>Computer</td>
+            <td>Second</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
