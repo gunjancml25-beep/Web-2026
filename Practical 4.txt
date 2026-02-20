@@ -23,7 +23,7 @@
     </thead>
     <tbody>
         <tr>
-            <td>Gunjan</td>
+            <td>Aryan</td>
             <td>Engineering</td>
             <td>First</td>
         </tr>
@@ -36,4 +36,5 @@
 </table>
 
 </body>
+
 </html>
