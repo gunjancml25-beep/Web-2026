@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fruits and Their Benefits</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Healthy Fruits for Energy</h1>
+    </header>
+
+    <section>
+        <h2>Introduction</h2>
+        <p>
+            Fruits are natural sources of vitamins, minerals and energy.
+            They help keep our body healthy and active.
+        </p>
+    </section>
+
+    <section>
+        <h2>List of Energy Giving Fruits</h2>
+
+        <article>
+            <h3>🍌 Banana</h3>
+            <p>Banana gives instant energy and is rich in potassium.</p>
+        </article>
+
+        <article>
+            <h3>🍎 Apple</h3>
+            <p>Apple provides long-lasting energy and improves digestion.</p>
+        </article>
+
+        <article>
+            <h3>🍊 Orange</h3>
+            <p>Orange is rich in Vitamin C and refreshes the body.</p>
+        </article>
+
+        <article>
+            <h3>🥭 Mango</h3>
+            <p>Mango contains natural sugar that boosts energy levels.</p>
+        </article>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Healthy Living | Web Designing Practical</p>
+    </footer>
+
+</body>
+</html>S
