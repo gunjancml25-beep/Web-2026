@@ -7,9 +7,8 @@
 <body>
 
 <h1>Welcome to My Web Page</h1>
-<p>This is a simple HTML5 Code</p>
 
-<h2>Student Details</h2>
+<h3>Student Details</h3>
 
 <table border="1" cellpadding="10" cellspacing="5">
     <caption>Student Information</caption>
@@ -27,36 +26,37 @@
 
     <tbody>
         <tr>
-            <td rowspan="1">Gunjan</td>
-            <td>Computer</td>
-            <td>First</td>
+            <td rowspan="1">Astha Gudgilla</td>
+            <td>Computer Engineering</td>
+            <td>First Year</td>
         </tr>
 
         <tr>
-            <td>Rahul</td>
-            <td>Mechanical</td>
-            <td>Second</td>
+            <td>Rahul Sharma</td>
+            <td>Mechanical Engineering</td>
+            <td>Second Year</td>
         </tr>
 
         <tr>
-            <td>Aisha</td>
-            <td>Civil</td>
-            <td>Third</td>
+            <td>Aryan Shastrakar</td>
+            <td>Civil Engineering</td>
+            <td>Third Year</td>
         </tr>
 
         <tr>
-            <td>Rohan</td>
-            <td>Electrical</td>
-            <td>Second</td>
+            <td>Rohan Malhotra</td>
+            <td>Electrical Engineering</td>
+            <td>Second Year</td>
         </tr>
     </tbody>
 
     <tfoot>
         <tr>
-            <td colspan="3">Total Students: 5</td>
+            <td colspan="3">Total Students: 5 students</td>
         </tr>
     </tfoot>
 
 </table>
 </body>
 </html>
+
