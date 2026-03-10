@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Resume</title>
+</head>
+
+<body>
+
+<h1 align="center">My Resume</h1>
+
+
+<center>
+<img src="photo.jpg" alt="My Photo" width="150" height="150">
+</center>
+
+<hr>
+
+
+<h2>Personal Information</h2>
+<table border="1" cellpadding="5">
+<tr>
+<td><b>Name</b></td>
+<td>Gunjan Chimote</td>
+</tr>
+
+<tr>
+<td><b>Email</b></td>
+<td>gunjanc.ml25@sbjit.edu.in</td>
+</tr>
+
+<tr>
+<td><b>Phone</b></td>
+<td>98XXXXXXXX</td>
+</tr>
+
+<tr>
+<td><b>Address</b></td>
+<td>Nagpur, India</td>
+</tr>
+</table>
+
+<hr>
+
+
+<h2>Education</h2>
+<ul>
+<li>10th - Maharastra State Board</li>
+<li>12th - Science Stream</li>
+<li>B.Tech First Year - Engineering</li>
+</ul>
+
+<hr>
+
+<h2>Skills</h2>
+<ol>
+<li>c language</li>
+<li>C++</li>
+<li>Basic Programming</li>
+<li>Web Designing</li>
+</ol>
+
+<hr>
+
+
+<h2>Hobbies</h2>
+<ul>
+<li>Listening Music</li>
+<li>Photography</li>
+<li>Travelling</li>
+</ul>
+
+<hr>
+
+<h2>My Website</h2>
+<p>
+Visit my favorite learning website:
+<a href="https://www.w3schools.com" target="_blank">W3Schools</a>
+</p>
+
+<hr>
+
+
+<h2>Declaration</h2>
+<p>
+I hereby declare that the above information is true to the best of my knowledge.
+</p>
+
+<br>
+
+<p><b>Date:</b> ___</p>
+<p><b>Place:</b> Nagpur</p>
+
+</body>
+</html>
