@@ -10,7 +10,9 @@
 
 
 <center>
-<img src="photo.jpg" alt="My Photo" width="150" height="150">
+<img src="https://cdn-icons-png.flaticon.com/512/2922/2922561.png" 
+     alt="Female Profile Picture" 
+     width="150" height="150">
 </center>
 
 <hr>
