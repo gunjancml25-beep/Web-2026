@@ -23,22 +23,22 @@
         <h2>List of Energy Giving Fruits</h2>
 
         <article>
-            <h3>🍌 Banana</h3>
+            <h3> Banana</h3>
             <p>Banana gives instant energy and is rich in potassium.</p>
         </article>
 
         <article>
-            <h3>🍎 Apple</h3>
+            <h3> Apple</h3>
             <p>Apple provides long-lasting energy and improves digestion.</p>
         </article>
 
         <article>
-            <h3>🍊 Orange</h3>
+            <h3> Orange</h3>
             <p>Orange is rich in Vitamin C and refreshes the body.</p>
         </article>
 
         <article>
-            <h3>🥭 Mango</h3>
+            <h3> Mango</h3>
             <p>Mango contains natural sugar that boosts energy levels.</p>
         </article>
 
@@ -49,4 +49,4 @@
     </footer>
 
 </body>
-</html>S
+</html>
