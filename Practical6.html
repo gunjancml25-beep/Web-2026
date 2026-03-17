@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scholarship Registration Form</title>
+</head>
+
+<body>
+
+<h2 align="center">Scholarship / Seminar Registration Form</h2>
+
+<form>
+
+    <!-- Student Details -->
+    <fieldset>
+        <legend>Student Details</legend>
+
+        Name: <input type="text" name="name"><br><br>
+        Roll No: <input type="text" name="roll"><br><br>
+        Semester/Year: <input type="text" name="sem"><br><br>
+        Academic Session: <input type="text" name="session"><br><br>
+        Date of Performance: <input type="date" name="dop"><br><br>
+        Date of Submission: <input type="date" name="dos"><br><br>
+
+    </fieldset>
+
+    <br>
+
+    <!-- Gender (Radio Buttons) -->
+    <fieldset>
+        <legend>Gender</legend>
+
+        <input type="radio" name="gender" value="male"> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="other"> Other<br>
+
+    </fieldset>
+
+    <br>
+
+    <!-- Course Selection (Dropdown) -->
+    <fieldset>
+        <legend>Select Course</legend>
+
+        <select name="course">
+            <option>Select Course</option>
+            <option>B.Tech</option>
+            <option>BCA</option>
+            <option>B.Sc</option>
+            <option>M.Tech</option>
+        </select>
+
+    </fieldset>
+
+    <br>
+
+    <!-- Preferences (Checkboxes) -->
+    <fieldset>
+        <legend>Preferred Topics</legend>
+
+        <input type="checkbox" name="topic1"> AI<br>
+        <input type="checkbox" name="topic2"> Web Development<br>
+        <input type="checkbox" name="topic3"> Data Science<br>
+        <input type="checkbox" name="topic4"> Cyber Security<br>
+
+    </fieldset>
+
+    <br>
+
+    <!-- Submit -->
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+
+</form>
+
+</body>
+</html>
