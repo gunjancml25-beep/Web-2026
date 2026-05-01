@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Designing Lab</title>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .content {
+            column-count: 3;
+            column-gap: 20px;
+            column-rule: 2px solid gray;
+            padding: 20px;
+        }
+
+        .box {
+            background: white;
+            margin: 10px;
+            padding: 15px;
+            display: inline-block;
+            width: 100%;
+            transition: transform 0.3s;
+        }
+
+        
+        .box:hover {
+            transform: scale(1.1) rotate(2deg);
+        }
+        .animated {
+            width: 100px;
+            height: 100px;
+            background: red;
+            margin: 20px auto;
+            animation: moveBox 3s infinite;
+        }
+
+        @keyframes moveBox {
+            0% { transform: translateX(0); }
+            50% { transform: translateX(200px); }
+            100% { transform: translateX(0); }
+        }
+
+        @media screen and (max-width: 768px) {
+            .content {
+                column-count: 1;
+            }
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Responsive Web Design</h1>
+    <p><i class="fas fa-laptop-code"></i> CSS3 Features Demo</p>
+</header>
+
+<div class="animated"></div>
+
+<div class="content">
+    <div class="box">
+        <h3><i class="fas fa-mobile-alt"></i> Responsive</h3>
+        <p>This layout changes based on screen size using media queries.</p>
+    </div>
+
+    <div class="box">
+        <h3><i class="fas fa-columns"></i> Columns</h3>
+        <p>Content is divided into multiple columns like a newspaper layout.</p>
+    </div>
+
+    <div class="box">
+        <h3><i class="fas fa-font"></i> Fonts</h3>
+        <p>Custom fonts are added using Google Fonts.</p>
+    </div>
+
+    <div class="box">
+        <h3><i class="fas fa-magic"></i> Transform</h3>
+        <p>Hover over this box to see scaling and rotation effects.</p>
+    </div>
+
+    <div class="box">
+        <h3><i class="fas fa-play"></i> Animation</h3>
+        <p>The red box above is animated using keyframes.</p>
+    </div>
+</div>
+
+<footer>
+    <p>Web Designing Lab Practical</p>
+</footer>
+
+</body>
+</html>
