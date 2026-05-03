@@ -1,0 +1,135 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <title>HTML5 APIs Demo</title> 
+    <style> 
+        body { 
+            font-family: Arial; 
+            text-align: center; 
+        } 
+ 
+        #dragBox { 
+            width: 100px; 
+            height: 100px; 
+            background-color: orange; 
+            line-height: 100px; 
+            cursor: grab; 
+  
+            margin: 20px auto; 
+        } 
+ 
+        #dropArea { 
+            width: 200px; 
+            height: 200px; 
+            border: 2px dashed black; 
+            margin: auto; 
+            line-height: 200px; 
+        } 
+ 
+        button { 
+            margin: 10px; 
+            padding: 8px 15px; 
+        } 
+    </style> 
+</head> 
+ 
+<body> 
+ 
+<h2>HTML5 APIs Demo</h2> 
+ 
+<!-- Drag and Drop --> 
+<h3>Drag and Drop API</h3> 
+ 
+<div id="dragBox" draggable="true" ondragstart="drag(event)"> 
+    Drag Me 
+</div> 
+ 
+<div id="dropArea" ondragover="allowDrop(event)" ondrop="drop(event)"> 
+    Drop Here 
+</div> 
+ 
+<hr> 
+ 
+<!-- Geolocation --> 
+  
+<h3>Geolocation API</h3> 
+ 
+<button onclick="getLocation()">Get Location</button> 
+<p id="location"></p> 
+ 
+<hr> 
+ 
+<!-- Web Storage --> 
+<h3>Web Storage API</h3> 
+ 
+<input type="text" id="dataInput" placeholder="Enter something"> 
+<br> 
+ 
+<button onclick="saveData()">Save (localStorage)</button> 
+<button onclick="getData()">Get Data</button> 
+<button onclick="deleteData()">Delete Data</button> 
+ 
+<p id="storageOutput"></p> 
+ 
+<script> 
+    // Drag & Drop Functions 
+    function allowDrop(ev) { 
+        ev.preventDefault(); 
+    } 
+ 
+    function drag(ev) { 
+        ev.dataTransfer.setData("text", ev.target.id); 
+    } 
+ 
+    function drop(ev) { 
+        ev.preventDefault(); 
+        var data = ev.dataTransfer.getData("text"); 
+        ev.target.appendChild(document.getElementById(data)); 
+    } 
+ 
+    // Geolocation Function 
+  
+    function getLocation() { 
+        if (navigator.geolocation) { 
+            navigator.geolocation.getCurrentPosition(showPosition); 
+        } else { 
+            document.getElementById("location").innerHTML = "Geolocation not supported"; 
+        } 
+    } 
+ 
+    function showPosition(position) { 
+        document.getElementById("location").innerHTML = 
+            "Latitude: " + position.coords.latitude + 
+            "<br>Longitude: " + position.coords.longitude; 
+    } 
+ 
+    // Web Storage Functions 
+    function saveData() { 
+        var value = document.getElementById("dataInput").value; 
+        localStorage.setItem("myData", value); 
+        alert("Data Saved!"); 
+    } 
+ 
+    function getData() { 
+        var data = localStorage.getItem("myData"); 
+        document.getElementById("storageOutput").innerHTML = "Stored Data: " + data; 
+    } 
+ 
+    function deleteData() { 
+        localStorage.removeItem("myData"); 
+        document.getElementById("storageOutput").innerHTML = "Data Deleted"; 
+    } 
+</script> 
+ 
+</body> 
+</html> 
+  
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
